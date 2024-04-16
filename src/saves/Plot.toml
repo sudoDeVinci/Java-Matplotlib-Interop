@@ -1,0 +1,19 @@
+name = "Plot"
+title = "Test Plot"
+x_label = "Test X Label"
+y_label = "Test Y Label"
+fontsize = 20
+
+[[plots]]
+label = "Plot01"
+x = [1, 2, 3, 4, 5]
+y = [1.0, 2.0, 3.0, 4.0, 5.0]
+type = "linear"
+size = 40
+
+[[plots]]
+label = "Plot02"
+x = [1, 2, 3, 4, 5]
+y = [1.0, 4.0, 9.0, 16.0, 25.0]
+type = "exponential"
+size = 40
